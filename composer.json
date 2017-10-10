@@ -1,0 +1,19 @@
+{
+  "name": "pckg/cache",
+  "description": "PHP cache",
+  "homepage": "https://github.com/pckg/cache",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bojan Rajh",
+      "email": "schtr4jh@schtr4jh.net"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-0": {
+      "Pckg": "src\\"
+    }
+  },
+  "minimum-stability": "dev"
+}
