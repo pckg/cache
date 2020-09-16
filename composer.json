@@ -9,7 +9,9 @@
       "email": "schtr4jh@schtr4jh.net"
     }
   ],
-  "require": {},
+  "require": {
+    "doctrine/cache": "^1.6"
+  },
   "autoload": {
     "psr-0": {
       "Pckg": "src\\"
