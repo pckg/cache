@@ -1,4 +1,6 @@
-<?php namespace Pckg\Cache\Handler;
+<?php
+
+namespace Pckg\Cache\Handler;
 
 use Pckg\Database\Record;
 
@@ -56,5 +58,4 @@ class InvalidateCacheByRecord
             $rebuild();
         }
     }
-
 }

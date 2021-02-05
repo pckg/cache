@@ -1,4 +1,6 @@
-<?php namespace Pckg\Cache;
+<?php
+
+namespace Pckg\Cache;
 
 class Cache
 {
@@ -62,5 +64,4 @@ class Cache
     {
         return $this->cache;
     }
-
 }
