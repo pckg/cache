@@ -4,7 +4,6 @@ namespace Pckg\Cache;
 
 class Cache
 {
-
     protected $cache = [];
 
     protected $cachePath;

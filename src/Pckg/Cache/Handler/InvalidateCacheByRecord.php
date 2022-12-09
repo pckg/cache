@@ -6,7 +6,6 @@ use Pckg\Database\Record;
 
 class InvalidateCacheByRecord
 {
-
     /**
      * @T00D00 - Disable caching when multiple records are inserted at once.
      *

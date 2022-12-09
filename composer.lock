@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be50de827fe857f518843d6ec5a7fd5d",
+    "content-hash": "0e16ca0cb85dfb7357a41c3b828ae29d",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -2041,17 +2041,132 @@
             "time": "2022-04-24T13:53:04+00:00"
         },
         {
+            "name": "pckg/concept",
+            "version": "dev-next-8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pckg/concept.git",
+                "reference": "eace5a99cf4c1dc50fb68b9aa2d9ee2152f374e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pckg/concept/zipball/eace5a99cf4c1dc50fb68b9aa2d9ee2152f374e8",
+                "reference": "eace5a99cf4c1dc50fb68b9aa2d9ee2152f374e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "8.0.*"
+            },
+            "require-dev": {
+                "pckg-app/frontend-dev": "dev-next-8.0 as dev-master",
+                "pckg/framework": "dev-next-8.0 as dev-master",
+                "pckg/htmlbuilder": "dev-next-8.0 as dev-master",
+                "pckg/manager": "dev-next-8.0 as dev-master"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Pckg/Concept/Helper/functions.php",
+                    "src/Pckg/Concept/Helper/functions_bc.php"
+                ],
+                "psr-0": {
+                    "Pckg": "src\\"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bojan Rajh",
+                    "email": "schtr4jh@schtr4jh.net"
+                }
+            ],
+            "description": "Simple php concepts",
+            "homepage": "https://github.com/pckg/concept",
+            "support": {
+                "issues": "https://github.com/pckg/concept/issues",
+                "source": "https://github.com/pckg/concept/tree/next-8.0"
+            },
+            "time": "2022-12-08T20:18:50+00:00"
+        },
+        {
+            "name": "pckg/database",
+            "version": "dev-next-8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pckg/database.git",
+                "reference": "40411875bdd3ba52268bf4c36f82d7f60c57bdfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pckg/database/zipball/40411875bdd3ba52268bf4c36f82d7f60c57bdfe",
+                "reference": "40411875bdd3ba52268bf4c36f82d7f60c57bdfe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "php": "8.0.*"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php-resources": "^0.3.0",
+                "fakerphp/faker": "1.*",
+                "pckg-app/frontend-dev": "dev-next-8.0 as dev-master",
+                "pckg/auth": "dev-next-8.0 as dev-master",
+                "pckg/cache": "dev-next-8.0 as dev-master",
+                "pckg/collection": "dev-next-8.0 as dev-master",
+                "pckg/concept": "dev-next-8.0 as dev-master",
+                "pckg/framework": "dev-next-8.0 as dev-master",
+                "pckg/htmlbuilder": "dev-next-8.0 as dev-master",
+                "pckg/locale": "dev-next-8.0 as dev-master",
+                "pckg/manager": "dev-next-8.0 as dev-master",
+                "pckg/migrator": "dev-next-8.0 as dev-master"
+            },
+            "suggest": {
+                "fakerphp/faker": "Use faker to mock data*",
+                "maximebf/debugbar": "Push queries and events to debugbar"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pckg": "src\\",
+                    "Test": "tests\\src\\"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bojan Rajh",
+                    "email": "schtr4jh@schtr4jh.net"
+                }
+            ],
+            "description": "Just another php / orm / pdo implementation for simple and advanced data management",
+            "homepage": "https://github.com/pckg/database",
+            "support": {
+                "issues": "https://github.com/pckg/database/issues",
+                "source": "https://github.com/pckg/database/tree/next-8.0"
+            },
+            "time": "2022-12-08T20:30:35+00:00"
+        },
+        {
             "name": "pckg/framework",
             "version": "dev-next-8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pckg/framework.git",
-                "reference": "31740c4111560630b58799790226e3adc19354a7"
+                "reference": "5d63637cdf182a952b8b24e73abe76265012ce7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pckg/framework/zipball/31740c4111560630b58799790226e3adc19354a7",
-                "reference": "31740c4111560630b58799790226e3adc19354a7",
+                "url": "https://api.github.com/repos/pckg/framework/zipball/5d63637cdf182a952b8b24e73abe76265012ce7d",
+                "reference": "5d63637cdf182a952b8b24e73abe76265012ce7d",
                 "shasum": ""
             },
             "require": {
@@ -2112,7 +2227,7 @@
                 "issues": "https://github.com/pckg/framework/issues",
                 "source": "https://github.com/pckg/framework/tree/next-8.0"
             },
-            "time": "2022-12-08T19:54:37+00:00"
+            "time": "2022-12-08T20:27:02+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2717,16 +2832,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.26",
+            "version": "9.5.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a2bc7ffdca99f92d959b3f2270529334030bba38",
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38",
                 "shasum": ""
             },
             "require": {
@@ -2799,7 +2914,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.27"
             },
             "funding": [
                 {
@@ -2815,7 +2930,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-28T06:00:21+00:00"
+            "time": "2022-12-09T07:31:23+00:00"
         },
         {
             "name": "predis/predis",
@@ -6064,6 +6179,18 @@
             "alias_normalized": "dev-master"
         },
         {
+            "package": "pckg/concept",
+            "version": "dev-next-8.0",
+            "alias": "dev-master",
+            "alias_normalized": "dev-master"
+        },
+        {
+            "package": "pckg/database",
+            "version": "dev-next-8.0",
+            "alias": "dev-master",
+            "alias_normalized": "dev-master"
+        },
+        {
             "package": "pckg/framework",
             "version": "dev-next-8.0",
             "alias": "dev-master",
@@ -6073,7 +6200,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "pckg-app/frontend-dev": 20,
-        "pckg/framework": 20
+        "pckg/framework": 20,
+        "pckg/concept": 20,
+        "pckg/database": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
